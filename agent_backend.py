@@ -149,7 +149,7 @@ def run_agent(agent_id):
                 'anthropic-version': '2023-06-01'
             },
             json={
-                'model': 'claude-opus',
+                'model': 'claude-3-5-sonnet-20240229',
                 'max_tokens': 1024,
                 'system': system_prompt if system_prompt else 'You are a helpful assistant.',
                 'messages': [{
